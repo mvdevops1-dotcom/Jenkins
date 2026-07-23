@@ -4,7 +4,7 @@ pipeline {
     }
 
     stages {
-        stage('update') {
+        stage('update first') {
             steps {
                 sh 'sudo apt update'
             }
